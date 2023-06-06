@@ -1,0 +1,46 @@
+.home_content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.home_title {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: rgb(29, 16, 60);
+}
+
+.home_subtitle {
+    font-size: 23px;
+    letter-spacing: 3px;
+    color: gray;
+    
+}
+
+.home_redirect_image img {
+   width: 80px;
+   height: 80px;
+}
+
+.home_redirect_image {
+    transition: 1s;
+    animation: top_to_bottom 2s linear ease;
+}
+
+.home_redirect_image:hover {
+    transform: scale(1.2)
+
+}
+
+@keyframes top_to_bottom {
+    from {
+        top: -45px;
+    }to {
+        top: 0;
+    }
+
+}

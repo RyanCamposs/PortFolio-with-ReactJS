@@ -1,0 +1,63 @@
+.contato_section {
+    width: 100vw;
+    height: 50vh;
+    background-color: #6E07F3;
+    color: white;
+    text-align: center;
+
+  
+    
+}
+
+.contato_section h2 {
+    font-size: 25px;
+    padding: 40px;
+}
+
+.contato_container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100%;
+    background-color: #6E07F3;
+}
+
+.contato_container_items form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    height: 30px;
+    width: 306px;
+}
+
+.contato_padrao {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contato_padrao a {
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    margin: 10px 30px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+}

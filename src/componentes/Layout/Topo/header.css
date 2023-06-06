@@ -1,0 +1,27 @@
+header {
+    width: 100vw;
+    height: 100%;
+  
+
+}
+
+.header_items {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header_logo img{
+    width: 70px;
+    height: 70px;
+}
+
+.header_link a {
+    text-decoration: none;
+    color: #6E07F3;
+    border: 1px solid #6E07F3;
+    padding: 10px;
+    border-radius: 20px;
+  
+}
