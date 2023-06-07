@@ -67,5 +67,14 @@
         align-items: center;
         justify-content: center;
     }
+
+    .about_images_box {
+        border: 1px solid rgba(255, 255, 255, 0.226);
+        margin: 30px 20px;
+        border-radius: 15px;
+        transition: 1s;
+        background-color: rgb(29, 16, 60);
+        
+    }
     
 }
