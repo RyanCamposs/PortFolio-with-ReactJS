@@ -15,19 +15,19 @@ export default function About() {
             estou com o objetivo de me especializar nessa área.</h3>
             
             <div className="about_images">
-                <div className="about_images_box">
+                <div className="about_images_box one">
                 <img src={reactIcon} alt="React Icon" title="ReactJS"></img>
                 </div>
 
-                <div className="about_images_box">
+                <div className="about_images_box one">
                 <img src={javascript} alt="JavaScript Icon" title="JavaScript"></img>
                 </div>
 
-                <div className="about_images_box">
+                <div className="about_images_box two">
                 <img src={css} alt="CSS Icon" title="CSS"></img>
                 </div>
 
-                <div className="about_images_box">
+                <div className="about_images_box two">
                 <img src={html} alt="HTML Icon" title="HTML"></img>
                 </div>
 
