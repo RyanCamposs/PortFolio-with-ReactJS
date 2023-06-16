@@ -24,7 +24,7 @@ export default function Projetos() {
                         <ListaDeProjetos 
                             titulo="Color Flipper" 
                             imagem={colorflipper}
-                            linkPort="https://github.com/RyanCamposs/color-flipper" linkPage="https://contador-regressivo-htxe.vercel.app/"
+                            linkPort="https://github.com/RyanCamposs/color-flipper" linkPage="https://color-flipper-cyan.vercel.app/"
                         />
 
                         <ListaDeProjetos 
