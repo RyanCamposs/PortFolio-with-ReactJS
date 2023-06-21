@@ -1,12 +1,10 @@
 .contato_section {
     width: 100vw;
-    height: 50vh;
+    height: 60vw;
     background-color: #6E07F3;
     color: white;
     text-align: center;
-
-  
-    
+    position: relative;
 }
 
 .contato_section h2 {
@@ -30,6 +28,7 @@
     align-items: center;
     justify-content: space-around;
 }
+
 
 input {
     height: 30px;
@@ -60,4 +59,12 @@ button {
     background-color: white;
     text-align: center;
     text-decoration: none;
+}
+
+.color_transform {
+    background:linear-gradient(180deg, #6E07F3, white);
+    height: 30vw;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
 }

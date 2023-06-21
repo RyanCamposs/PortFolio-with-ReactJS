@@ -6,6 +6,7 @@
     width: 100vw;
     height: 100vh;
     text-align: center;
+    background:linear-gradient(180deg,white,rgb(196, 196, 196), #6E07F3);
 }
 
 .home_title {
@@ -17,7 +18,7 @@
 .home_subtitle {
     font-size: 23px;
     letter-spacing: 3px;
-    color: gray;
+    color: rgb(0, 0, 0);
     
 }
 
