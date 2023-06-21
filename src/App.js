@@ -27,7 +27,7 @@ function App() {
       
 
       
-          {/* <Contato></Contato> */}
+        <Contato></Contato>
      
 
         {/* <Footer></Footer> */}
