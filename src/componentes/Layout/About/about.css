@@ -1,5 +1,5 @@
 .about_container {
-    width: 100vw;
+    width: 100%;
     height: 70vh;
     display: flex;
     flex-direction: column;
@@ -8,6 +8,7 @@
     background-color: #6E07F3;
     color: white;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .about_container h2 {

@@ -30,7 +30,7 @@ function App() {
         <Contato></Contato>
      
 
-        {/* <Footer></Footer> */}
+        <Footer></Footer>
     </div>
 
   );
