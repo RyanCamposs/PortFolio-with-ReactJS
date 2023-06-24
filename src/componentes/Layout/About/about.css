@@ -9,7 +9,7 @@
     color: white;
     text-align: center;
     box-sizing: border-box;
-    border: 1px solid red;
+   
 }
 
 .about_container h2 {
@@ -49,6 +49,10 @@
 }
 
 @media screen and (max-width:767px){
+    body, html {
+        overflow-x: hidden!important;
+    }
+
     .about_images_box img {
         width: 60px;
         height: 60px;
