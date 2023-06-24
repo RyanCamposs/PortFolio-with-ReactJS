@@ -73,10 +73,10 @@
     
   }
 
-  .projetos_container_box {
+  /* .projetos_container_box {
     border: 1px solid rgba(0, 0, 0, 0.123);
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -87,7 +87,7 @@
     border-radius: 10px;
     transition: 1s;
     box-shadow: 2px 2px rgb(0, 0, 0);
-  }
+  } */
 
   .projetos_container_box {
     border: 1px solid rgba(0, 0, 0, 0.123);

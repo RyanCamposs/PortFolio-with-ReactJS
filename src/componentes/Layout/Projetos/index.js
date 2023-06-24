@@ -27,6 +27,13 @@ export default function Projetos() {
                             linkPort="https://github.com/RyanCamposs/color-flipper" linkPage="https://color-flipper-cyan.vercel.app/"
                         />
 
+                        <ListaDeProjetos 
+                            titulo="Calculadora"
+                            imagem={calculadora}
+                            linkPort="https://github.com/RyanCamposs/calculadora" linkPage="https://calculadora-htxe.vercel.app/"
+                        />
+
+
                 </div>
 
 
@@ -45,37 +52,16 @@ export default function Projetos() {
                             linkPort="https://github.com/RyanCamposs/Sorveteria" linkPage="https://sorveteria-flame.vercel.app/"
                         />
 
-                       
+                        <ListaDeProjetos 
+                            titulo="Cafeteria" 
+                            imagem={cafeteria}
+                            linkPort="https://github.com/RyanCamposs/Cafeteria" linkPage="https://cafeteria-htxe.vercel.app/"
+                        />
 
                         
         
 
                 </div>
-
-        
-                <div className="projetos_container">
-                <ListaDeProjetos 
-                            titulo="Calculadora"
-                            imagem={calculadora}
-                            linkPort="https://github.com/RyanCamposs/calculadora" linkPage="https://calculadora-htxe.vercel.app/"
-                        />
-
-
-                <ListaDeProjetos 
-                            titulo="Cafeteria" 
-                            imagem={cafeteria}
-                            linkPort="https://github.com/RyanCamposs/Cafeteria" linkPage="https://cafeteria-htxe.vercel.app/"
-                        />
-    
-                </div>
-
-                
-
-
-
-
-
-
         </section>
     )
 }
