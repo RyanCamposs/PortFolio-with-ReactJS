@@ -9,6 +9,7 @@
     color: white;
     text-align: center;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 .about_container h2 {
